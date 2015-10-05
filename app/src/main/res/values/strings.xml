@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Colombia Turistíca</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="spanish">Español</string>
+    <string name="english">English</string>
+    <string name="acerca">Acerca de ...</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="publicidad">Al sur occidente colombiano se encuentra Pasto, conocida como la ciudad sorpresa de Colombia. Esta linda tierra invita y espera a propios y ajenos a recibir cada año a los reconocidos Carnavales de Negros y Blancos. \n También se le dice ciudad “Sorpresa”, apelativo que nace porque las personas que visitan por primera vez el sur de Colombia, quedan atónitas por el cariño de su gente, la infraestructura de la ciudad, los templos que sobresalen en cada esquina, catalogados como verdaderas joyas arquitectónicas de talla mundial, la gastronomía de la región, la rumba y las múltiples costumbres que acogen al turista y lo identifican como un pastuso más.
+</string>
+    <string name="title_activity_hotel">HotelActivity</string>
+    <string name="title_activity_hotel1">Hotel Frances La Maison</string>
+    <string name="infoh1">
+        Dirección: Calle 19 No.37-16 Barrio Palermo\nTelefóno: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelular: 3154857412\nNúmero de empleados: 3\nNúmero de habitaciones: 12\nNúmero de camas: 15
+    </string>
+    <string name="title_activity_hotel2">Loft Hotel</string>
+    <string name="infoh2">Dirección: Calle 18 No. 22-33 Centro\nTelefóno: 7226733\nE-mail: aux.gerencia@lofthotelpasto.com\nCelular: 3176434582\nNúmero de empleados: 14\nNúmero de habitaciones: 24\nNúmero de camas: 24
+    </string>
+    <string name="title_activity_hotel3">Hotel Venecia Confort</string>
+    <string name="infoh3">Dirección: Carrera 8 Nº 18-32 Barrio Venecia\nTelefóno: 7301135\nE-mail: hotelveneciapasto@gmail.com\nCelular: 3137322981\nNúmero de empleados: 5\nNúmero de habitaciones: 57\nNúmero de camas: 77
+</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_bar1">Cafe Bar Maria Mulata</string>
+    <string name="infob1">
+        Dirección: Calle 19 # 30 24\nTelefóno: +5727209419
+    </string>
+    <string name="title_activity_bar2">Mestizo Peña Bar</string>
+    <string name="infob2">Dirección: Calle 18 No. 27-67\nTelefóno: +5727227881
+    </string>
+    <string name="title_activity_bar3">Coyote Ugly (Cafe Bar)</string>
+    <string name="infob3">Dirección: Calle 18 # 29-81 Parque Infantil\nCelular: +573004068004</string>
+    <string name="title_activity_sitio1">Santuario de Las Lajas</string>
+    <string name="infos1">Iglesia construida en el Valle de las Lajas. Espectacular construcción en varias etapas en mármol blanco, preparaos para una bajada de espectacular descenso de mas de 1/2 hora por una escaleras empinadas llenas de placas dando gracias por los milagros que la Virgen a hecho o plegarias hacia ella hasta el lecho del río donde se alza la iglesia y rompe una cascada de 25 metros. Es uno de los lugares de peregrinación de los colombianos y ecuatorianos para pedir por sus enfermos y su pronta recuperación.
+    \n\nUbicación:\tIpiales, Nariño</string>
+    <string name="title_activity_sitio2">Laguna de la Cocha</string>
+    <string name="infos2">La Laguna de la Cocha es una laguna gigantesca, que limita con el Perú. Según la mitología indígena Quillacinga, en el fondo están las ruinas que dieron origen a este pueblo. Esta reserva nutre de agua a gran parte del departamento de Nariño y del Putumayo. Tiene una pequeña isla (La Corota) a donde se llega en lancha, allí existen unos arboles de gran peculiaridad que se respetan entre si en el paso de la luz solar, formando pequeñas siluetas laberínticas en cielo. Esta a la salida sur de la ciudad de Pasto vía a Putumayo. En tierra firme existen unos pequeños cafés donde se come la mejor cuajada en compañía de un "hervido", vivida típica de la región hecha con fruta y arguandiente, que eleva la temperatura de cuerpo dado que en el lugar hace bastante frío.
+    \n\nUbicacion:\tA 27 kilómetros de Pasto</string>
+    <string name="title_activity_sitio3">El Volcán Galeras</string>
+    <string name="infos3">Tiene una altura de 4276 metros sobre el nivel del mar. Bosques nublados y páramos que rodean al gigante galeras, en cuyos alrededores se pueden visitar sitios de enorme belleza, como las laguna de Telpis, Yacuanquer, Mejía, Coba Negra y Verde, la Cascada Tunal, la Chorrera Negra, aguas termales y cañones naturales.
+        \nEn su parte alta se ubica el santuario de la flora y fauna Galeras, fábrica de agua que abastece a las poblaciones vecinas y es hábitat de gran variedad de especies de flora y fauna. Esta área protegida puede ser visitada en cualquier época del año, previo contacto y solicitud de apoyo de los guías y funcionarios del área protegida en las oficinas de la Dirección Territorial o en la ciudad de Pasto.
+    \n\nUbicación:\tEl volcán Galeras se localiza aproximadamente al occidente de la ciudad de San Juan de Pasto.</string>
+    <string name="title_activity_sitio4">Carnaval de Negros y Blancos</string>
+    <string name="infos4">El carnaval comprende cuatro etapas importantes, a saber: el Carnavalito, la llegada de la familia Castañeda, el día de los Negros y el día de los Blancos con su desfile magno (siendo este el más importante turísticamente por la belleza). Sin embargo es necesario considerar las actividades del pre-carnaval y que en los últimos años, el 7 de enero se considera el día de remate de carnaval con la celebración del "Día del Cuy" una celebración gastronómica que tiene como eje principal el plato típico de la región.
+    \n\nUbicacón:\tPlaza del Carnaval en el centro de San Juan de Pasto se celebra cada 2 a 7 de Enero.</string>
+    <string name="title_activity_sitio5">Catedral de Pasto</string>
+    <string name="infos5">Fue levantada siguiendo los parámetros arquitectónicos clásicos, consta de cuatro amplias naves y de una fachada principal de elegante estructura, quien la visita por primera vez se lleva la impresión de estar bajo las bóvedas de una grandiosa basílica romana.\nEn el interior de la Catedral, sobre un retablo tallado en madera de cedro dorado totalmente, descansa la imagen del Sagrado Corazón de Jesús, venerada por los habitantes de Pasto.\nTambién, se encuentran dos sarcófagos tallados en piedra donde reposan los restos mortales de los obispos de la ciudad. Por su belleza arquitectónica, su valor histórico, sus obras de arte y por ser un espacio de recogimiento interior, el templo de la Catedral es un lugar digno de ser visitado.
+    \n\nUbicación:\tCarrera 26 No. 17 – 23 Centro, Pasto</string>
+    <string name="title_activity_sitios">sitios</string>
+
+
+
+<string name="titlem">Colombia Turistica Pasto</string>
+    <string name="titleme">Colombia Tourism Pasto</string>
+    <string name="title">Colombia Turistica</string>
+    <string name="titlee">Colombia Tourism</string>
+    <string name = "publicidade"> South western Colombia Pasto is known as the city of Colombia surprise. This beautiful land invites and waits for themselves and others to receive each year the Carnival of Blacks and Whites recognized.\n city also is told "Surprise", a name that comes because people visiting for the first time southern Colombia, are astonished by the warmth of its people, the infrastructure of the city, the temples stand on every corner, architectural gems listed as world class, the cuisine of the region, the rumba and the many customs that welcome tourists and identify it as a pastuso more.</string>   
+    <string name = "title_activity_hotele"> HotelActivity</string>    
+    <string name = "title_activity_hotel1e"> Frances Hotel La Maison</string>    
+    <string name = "infoh1e">Address: Calle 19 No.37-16 Barrio Palermo\nTelefóno: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelphone: 3154857412\nNumber of employees: 3\nNumber of rooms: 12\nNumber of beds: 15    
+</string>   
+    <string name = "title_activity_hotel2e"> Loft Hotel</string>    
+    <string name = "infoh2e"> Address: Calle 18 No. 22-33 Centro\nTelefóno: 7226733\nE-mail: aux.gerencia@lofthotelpasto.com\nCelphone: 3176434582\nNumber of employees: 14\nNumber of rooms: 24\nNumber of beds: 24</string>    
+    <string name = "title_activity_hotel3e"> Hotel Venecia Confort</string>    
+    <string name = "infoh3e"> Address: Carrera 8 No. 18-32 Barrio Venice\nTelefóno: 7301135\nE-mail: hotelveneciapasto@gmail.com\nCelular: 3137322981\nNumber of Employees: 5\nNumber of rooms: 57\nNumber beds: 77</string>    
+    <string name = "title_activity_barese"> Bar</string>    
+    <string name = "title_activity_bar1e"> Cafe Bar Maria Mulata</string> 
+    <string name = "infob1e">        Address: Calle 19 # 30 24\nTelefóno: +5727209419</string>    
+    <string name = "title_activity_bar2e"> Mestizo Peña Bar</string>    
+    <string name = "infob2e"> Address: Calle 18 No. 27-67\nTelephone: +5727227881</string>    
+    <string name = "title_activity_bar3e"> Coyote Ugly (Coffe Bar)</string>    
+    <string name = "infob3e"> Address: Calle 18 # 29-81 Playground\nCelular: +573004068004</string>   
+    <string name = "title_activity_sitio1e"> Santuario de Las Lajas</string>    
+    <string name = "infos1e"> Church built in the Valley of Lajas. Spectacular constructed in several stages in white marble prepared for a drop in dramatic decline of more than 1/2 hour for a plate full steep stairs giving thanks for the miracles that the Virgin made or prayers to her to the bed of the river where the church stands and breaks a cascade of 25 meters. It is one of the pilgrimage sites of Colombians and Ecuadorians to pray for their sick and their speedy recovery.\n\nUbicación:\tIpiales, Nariño</string>    
+    <string name = "title_activity_sitio2e"> Laguna de la Cocha</string>    
+    <string name = "infos2e"> La Laguna de la Cocha is a huge lake, which borders Peru. According to Indian mythology Quillacinga in the background are the ruins that gave rise to this town. This book draws water to much of Nariño and Putumayo. Is a small island (Corota) where you come by boat, there are some trees of great peculiarity who respect each other in the passage of sunlight, forming small labyrinthine silhouettes sky. It is at the southern exit of the city of Pasto route to Putumayo. On land there are some small cafes where the best curd accompanied by a "boiled" eats, vivid typical of the region made with fruit and arguandiente, which raises the body temperature because the place is quite cold.\n\nUbicacion:\tA 27 kilometers from Pasto</string>    
+    <string name = "title_activity_sitio3e"> The Galeras volcano</string>    
+    <string name = "infos3e"> has a height 4276 meters above sea level. Cloud forests and moors surrounding the giant galleys, around which you can visit places of great beauty, as the lagoon Telpis, Yacuanquer Mejia, Coba Black and Green, Cascade Tunal, the Black Chorrera, hot springs and natural canyons.\nIn the upper sanctuary of flora and fauna Galeras, factory that supplies water to neighboring populations and habitat for many species of flora and fauna is located. This protected area can be visited at any time of year, previous contact and request for support of the guides and officials protected the offices of the Regional Directorate or the city of Pasto area.\n\nUbicación:\tThe Galeras volcano is located about west of the city of Pasto</string>.    
+    <string name = "title_activity_sitio4e"> Blacks and Whites Carnival</string>
+    <string name = "infos4e"> The carnival includes four important stages namely: the Carnavalito, the arrival of the Castañeda family, the day of the Blacks and Whites day with grand parade (this being the most important for tourism for beauty). However you need to consider the pre-carnival activities and in recent years, on January 7 is day auction of carnival with the celebration of the "Day of Cuy" a gastronomic celebration that stretches along the dish region of.\n\nUbicacón:\tPlaza Carnival in the center of Pasto is held every 2 to January 7</string>.    
+    <string name = "title_activity_sitio5e"> Cathedral Pasto</string>    
+    <string name = "infos5e"> It was built following the traditional architectural parameters, has four wide naves and a facade of elegant structure, who first visited the impression of being under the vaults of a great Roman basilica it takes .\nIn the interior of the Cathedral, on a carved cedar altarpiece completely gold, lies the image of the Sacred Heart of Jesus, worshiped by the inhabitants of Pasto.\nYou, there are two sarcophagi carved in stone where the remains mortals of the bishops of the city. For its architectural beauty, their historical value, their artwork and be a place of interior recollection, the temple of the cathedral is a place worth visiting.\n\nUbicación:\tCarrera 26 No. 17-23 Centro, Pasto</string>    
+    <string name = "title_activity_sitiose"> sites</string>
+    <string name="title_activity_demo">Demografia</string>
+
+    <string name="infod">La zona urbana (cabecera municipal) cuya población censada en 2005 era de 312.759 habitantes, es la segunda ciudad más grande de la Región Pacífica después de Cali.\nLa población total del municipio (Urbana y rural) estimada para 2015 según datos de proyección del DANE es de 439.993 habitantes.\n\nComposición étnica\n\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica de la ciudad es:\n\n
+Blancos y Mestizos (97,5%)\n
+Afrocolombianos (1,6%)\n
+Indígenas (0,9%)\n
+</string>
+</resources>
