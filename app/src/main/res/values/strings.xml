@@ -100,6 +100,9 @@
             \nAfro-Colombians (1,6)
             \nIndigenous (0,9)
         </string>
+    <string name="title_activity_acercade">Acercade</string>
+
+    <string name="Acerca">Colombia Turistica V. 1.0 por:\nBrayan Hoyos Gómez\nMoviles 2015</string>
 
 
 </resources>

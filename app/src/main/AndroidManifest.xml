@@ -82,6 +82,11 @@
             android:name=".demo"
             android:label="@string/title_activity_demo" >
         </activity>
+        <activity
+            android:name=".Acercade"
+            android:label="@string/title_activity_acercade"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
     </application>
 
 </manifest>

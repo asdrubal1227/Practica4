@@ -73,6 +73,13 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             sit1.setText(R.string.publicidade);
             return true;
         }
+
+        if (id == R.id.acerca) {
+            //Abrir la actividad
+            Intent i = new Intent(this, Acercade.class);
+            startActivity(i);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -98,7 +105,7 @@ switch (v.getId()) {
         startActivity(i3);
         break;
     case (R.id.sitios):
-        Toast.makeText(this, "Menu Turismo", Toast.LENGTH_SHORT).show() ;
+        Toast.makeText(this, "Demografia", Toast.LENGTH_SHORT).show() ;
         //Abrir la actividad
         Intent i4 = new Intent(this, demo.class);
         startActivity(i4);
