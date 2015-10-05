@@ -47,6 +47,8 @@ public class sitios extends AppCompatActivity implements View.OnTouchListener{
             Toast.makeText(this, "Idioma Español", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.titu);
             sit1.setText(R.string.titlem);
+            TextView sit3 = (TextView) findViewById(R.id.sit);
+            sit3.setText(R.string.tu);
             return true;
         }
 
@@ -54,6 +56,8 @@ public class sitios extends AppCompatActivity implements View.OnTouchListener{
             Toast.makeText(this, "Idiom English", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.titu);
             sit1.setText(R.string.titleme);
+            TextView sit3 = (TextView) findViewById(R.id.sit);
+            sit3.setText(R.string.tue);
             return true;
         }
 

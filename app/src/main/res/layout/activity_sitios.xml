@@ -51,7 +51,7 @@
                 android:textAlignment="center"
                 android:gravity="center_horizontal"
                 android:textColor="@color/darkorange"
-                android:id="@+id/textView3"
+                android:id="@+id/sit"
                 android:layout_gravity="center_horizontal" />
 
             <LinearLayout

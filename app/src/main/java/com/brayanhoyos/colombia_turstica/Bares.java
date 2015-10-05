@@ -44,6 +44,8 @@ public class Bares extends AppCompatActivity implements View.OnTouchListener{
             Toast.makeText(this, "Idioma Español", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.tibar);
             sit1.setText(R.string.titlem);
+            TextView sit3 = (TextView) findViewById(R.id.ba);
+            sit3.setText(R.string.ba);
             return true;
         }
 
@@ -51,6 +53,8 @@ public class Bares extends AppCompatActivity implements View.OnTouchListener{
             Toast.makeText(this, "Idiom English", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.tibar);
             sit1.setText(R.string.titleme);
+            TextView sit3 = (TextView) findViewById(R.id.ba);
+            sit3.setText(R.string.bae);
             return true;
         }
 

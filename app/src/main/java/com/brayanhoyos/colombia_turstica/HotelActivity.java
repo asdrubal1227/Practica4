@@ -45,6 +45,8 @@ public class HotelActivity extends AppCompatActivity implements View.OnTouchList
             Toast.makeText(this, "Idioma Español", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.tihotel);
             sit1.setText(R.string.titlem);
+            TextView sit3 = (TextView) findViewById(R.id.ho);
+            sit3.setText(R.string.ho);
             return true;
         }
 
@@ -52,6 +54,8 @@ public class HotelActivity extends AppCompatActivity implements View.OnTouchList
             Toast.makeText(this, "Idiom English", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.tihotel);
             sit1.setText(R.string.titleme);
+            TextView sit3 = (TextView) findViewById(R.id.ho);
+            sit3.setText(R.string.hoe);
             return true;
         }
 
