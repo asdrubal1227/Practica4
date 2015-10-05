@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         bar.setOnTouchListener(this);
         View turismo=findViewById(R.id.turismo);
         turismo.setOnTouchListener(this);
+        View demo=findViewById(R.id.sitios);
+        demo.setOnTouchListener(this);
 
     }
 
@@ -94,6 +96,12 @@ switch (v.getId()) {
         //Abrir la actividad
         Intent i3 = new Intent(this, sitios.class);
         startActivity(i3);
+        break;
+    case (R.id.sitios):
+        Toast.makeText(this, "Menu Turismo", Toast.LENGTH_SHORT).show() ;
+        //Abrir la actividad
+        Intent i4 = new Intent(this, demo.class);
+        startActivity(i4);
         break;
 }
         return false;

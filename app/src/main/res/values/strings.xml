@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Colombia Turistíca</string>
-
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
@@ -59,19 +58,19 @@
     <string name = "publicidade"> South western Colombia Pasto is known as the city of Colombia surprise. This beautiful land invites and waits for themselves and others to receive each year the Carnival of Blacks and Whites recognized.\n city also is told "Surprise", a name that comes because people visiting for the first time southern Colombia, are astonished by the warmth of its people, the infrastructure of the city, the temples stand on every corner, architectural gems listed as world class, the cuisine of the region, the rumba and the many customs that welcome tourists and identify it as a pastuso more.</string>   
     <string name = "title_activity_hotele"> HotelActivity</string>    
     <string name = "title_activity_hotel1e"> Frances Hotel La Maison</string>    
-    <string name = "infoh1e">Address: Calle 19 No.37-16 Barrio Palermo\nTelephone: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelphone: 3154857412\nNumber of employees: 3\nNumber of rooms: 12\nNumber of beds: 15    
-</string>   
-    <string name = "title_activity_hotel2e"> Loft Hotel</string>    
-    <string name = "infoh2e"> Address: Calle 18 No. 22-33 Centro\nTelephone: 7226733\nE-mail: aux.gerencia@lofthotelpasto.com\nCelphone: 3176434582\nNumber of employees: 14\nNumber of rooms: 24\nNumber of beds: 24</string>    
-    <string name = "title_activity_hotel3e"> Hotel Venecia Confort</string>    
+    <string name = "infoh1e">Address: Calle 19 No.37-16 Barrio Palermo\nTelephone: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelphone: 3154857412\nNumber of employees: 3\nNumber of rooms: 12\nNumber of beds: 15
+</string>
+    <string name = "title_activity_hotel2e"> Loft Hotel</string>
+    <string name = "infoh2e"> Address: Calle 18 No. 22-33 Centro\nTelephone: 7226733\nE-mail: aux.gerencia@lofthotelpasto.com\nCelphone: 3176434582\nNumber of employees: 14\nNumber of rooms: 24\nNumber of beds: 24</string>
+    <string name = "title_activity_hotel3e"> Hotel Venecia Confort</string>
     <string name = "infoh3e"> Address: Carrera 8 No. 18-32 Barrio Venice\nTelephone: 7301135\nE-mail: hotelveneciapasto@gmail.com\nCelphone: 3137322981\nNumber of employees: 5\nNumber of rooms: 57\nNumber beds: 77</string>
-    <string name = "title_activity_barese"> Bar</string>    
-    <string name = "title_activity_bar1e"> Cafe Bar Maria Mulata</string> 
-    <string name = "infob1e">        Address: Calle 19 # 30 24\nTelephone: +5727209419</string>    
-    <string name = "title_activity_bar2e"> Mestizo Peña Bar</string>    
-    <string name = "infob2e"> Address: Calle 18 No. 27-67\nTelephone: +5727227881</string>    
-    <string name = "title_activity_bar3e"> Coyote Ugly (Coffe Bar)</string>    
-    <string name = "infob3e"> Address: Calle 18 # 29-81 Playground\nCelphone: +573004068004</string>   
+    <string name = "title_activity_barese"> Bar</string>
+    <string name = "title_activity_bar1e"> Cafe Bar Maria Mulata</string>
+    <string name = "infob1e">        Address: Calle 19 # 30 24\nTelephone: +5727209419</string>
+    <string name = "title_activity_bar2e"> Mestizo Peña Bar</string>
+    <string name = "infob2e"> Address: Calle 18 No. 27-67\nTelephone: +5727227881</string>
+    <string name = "title_activity_bar3e"> Coyote Ugly (Coffe Bar)</string>
+    <string name = "infob3e"> Address: Calle 18 # 29-81 Playground\nCelphone: +573004068004</string>
     <string name = "title_activity_sitio1e"> Santuario de Las Lajas</string>    
     <string name = "infos1e"> Church built in the Valley of Lajas. Spectacular constructed in several stages in white marble prepared for a drop in dramatic decline of more than 1/2 hour for a plate full steep stairs giving thanks for the miracles that the Virgin made or prayers to her to the bed of the river where the church stands and breaks a cascade of 25 meters. It is one of the pilgrimage sites of Colombians and Ecuadorians to pray for their sick and their speedy recovery.\n\nUbicación:\tIpiales, Nariño</string>    
     <string name = "title_activity_sitio2e"> Laguna de la Cocha</string>    
@@ -81,14 +80,26 @@
     <string name = "title_activity_sitio4e"> Blacks and Whites Carnival</string>
     <string name = "infos4e"> The carnival includes four important stages namely: the Carnavalito, the arrival of the Castañeda family, the day of the Blacks and Whites day with grand parade (this being the most important for tourism for beauty). However you need to consider the pre-carnival activities and in recent years, on January 7 is day auction of carnival with the celebration of the "Day of Cuy" a gastronomic celebration that stretches along the dish region of.\n\nUbicacón:\tPlaza Carnival in the center of Pasto is held every 2 to January 7</string>.    
     <string name = "title_activity_sitio5e"> Cathedral Pasto</string>    
-    <string name = "infos5e"> It was built following the traditional architectural parameters, has four wide naves and a facade of elegant structure, who first visited the impression of being under the vaults of a great Roman basilica it takes .\nIn the interior of the Cathedral, on a carved cedar altarpiece completely gold, lies the image of the Sacred Heart of Jesus, worshiped by the inhabitants of Pasto.\nYou, there are two sarcophagi carved in stone where the remains mortals of the bishops of the city. For its architectural beauty, their historical value, their artwork and be a place of interior recollection, the temple of the cathedral is a place worth visiting.\n\nUbicación:\tCarrera 26 No. 17-23 Centro, Pasto</string>    
-    <string name = "title_activity_sitiose"> sites</string>
+    <string name = "infos5e"> It was built following the traditional architectural parameters, has four wide naves and a facade of elegant structure, who first visited the impression of being under the vaults of a great Roman basilica it takes .\nIn the interior of the Cathedral, on a carved cedar altarpiece completely gold, lies the image of the Sacred Heart of Jesus, worshiped by the inhabitants of Pasto.\nYou, there are two sarcophagi carved in stone where the remains mortals of the bishops of the city. For its architectural beauty, their historical value, their artwork and be a place of interior recollection, the temple of the cathedral is a place worth visiting.\n\nUbicación:\tCarrera 26 No. 17-23 Centro, Pasto</string>
+ <string name = "title_activity_sitiose">Sites</string>
     <string name="title_activity_demo">Demografia</string>
+    <string name="title_activity_demoe">Demographic</string>
+    <string name="infod">La zona urbana (cabecera municipal) cuya población censada en 2005 era de 312.759 habitantes, es la segunda ciudad más grande de la Región Pacífica después de Cali.\nLa población total del municipio (Urbana y rural) estimada para 2015 según datos de proyección del DANE es de 439.993 habitantes.
+        \n\nComposición étnica
+        \n\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica de la ciudad es (en porcentage):
+        \n\nBlancos y Mestizos (97,5)
+        \nAfrocolombianos (1,6)
+        \nIndígenas (0,9).
+    </string>
 
-    <string name="infod">La zona urbana (cabecera municipal) cuya población censada en 2005 era de 312.759 habitantes, es la segunda ciudad más grande de la Región Pacífica después de Cali.\nLa población total del municipio (Urbana y rural) estimada para 2015 según datos de proyección del DANE es de 439.993 habitantes.\n\nComposición étnica\n\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica de la ciudad es:\n\n
-Blancos y Mestizos (97,5%)\n
-Afrocolombianos (1,6%)\n
-Indígenas (0,9%)\n
-</string>
-    <string name = "infode"> The urban area (municipal head) whose registered population in 2005 was 312,759 inhabitants, is the second largest in the Pacific Region after Cali city.\nThe total population of the municipality (urban and rural) 2015 data estimated by DANE's projection of 439,993 inhabitants\n \ ethnic nComposición\n\nSegún the figures presented by DANE 2005 census, the ethnographic composition of the city.\n\n Whites and Mestizos (97.5%)\n Afro-Colombians (1.6%)\n Indigenous (0.9%)\n </string>
+        <string name="infode">The urban area (municipal head) whose registered population in 2005 was 312.759 inhabitants, is the second largest in the Pacific Region after Cali city.
+            \nThe total population of the municipality (urban and rural) 2015 data estimated by DANEs projection of 439.993 inhabitants.
+            \n\nEthnic Composición
+            \n\nSegún the figures presented by DANE 2005 census, the ethnographic composition of the city is (in percentage):
+            \n\nWhites and Mestizos (97,5)
+            \nAfro-Colombians (1,6)
+            \nIndigenous (0,9)
+        </string>
+
+
 </resources>

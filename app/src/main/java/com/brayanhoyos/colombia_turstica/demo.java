@@ -29,6 +29,7 @@ public class demo extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.español) {
             Toast.makeText(this, "Idioma Español", Toast.LENGTH_SHORT).show();
