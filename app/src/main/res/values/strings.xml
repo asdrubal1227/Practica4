@@ -8,6 +8,12 @@
     <string name="bae">BARS</string>
     <string name="ho">HOTELES</string>
     <string name="hoe">HOTELS</string>
+    <string name="tu1">Turismo</string>
+    <string name="tue1">Tourism</string>
+    <string name="ba1">Bares</string>
+    <string name="bae1">Bars</string>
+    <string name="ho1">Hoteles</string>
+    <string name="hoe1">Hotels</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="spanish">Español</string>
