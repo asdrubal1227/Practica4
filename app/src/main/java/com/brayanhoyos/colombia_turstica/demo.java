@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class demo extends AppCompatActivity {
 
@@ -28,7 +30,17 @@ public class demo extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.español) {
+            Toast.makeText(this, "Idioma Español", Toast.LENGTH_SHORT).show();
+            TextView sit1 = (TextView) findViewById(R.id.demo);
+            sit1.setText(R.string.infod);
+            return true;
+        }
+
+        if (id == R.id.ingles) {
+            Toast.makeText(this, "Idiom English", Toast.LENGTH_SHORT).show();
+            TextView sit1 = (TextView) findViewById(R.id.demo);
+            sit1.setText(R.string.infode);
             return true;
         }
 

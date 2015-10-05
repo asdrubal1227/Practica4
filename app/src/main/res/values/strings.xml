@@ -59,19 +59,19 @@
     <string name = "publicidade"> South western Colombia Pasto is known as the city of Colombia surprise. This beautiful land invites and waits for themselves and others to receive each year the Carnival of Blacks and Whites recognized.\n city also is told "Surprise", a name that comes because people visiting for the first time southern Colombia, are astonished by the warmth of its people, the infrastructure of the city, the temples stand on every corner, architectural gems listed as world class, the cuisine of the region, the rumba and the many customs that welcome tourists and identify it as a pastuso more.</string>   
     <string name = "title_activity_hotele"> HotelActivity</string>    
     <string name = "title_activity_hotel1e"> Frances Hotel La Maison</string>    
-    <string name = "infoh1e">Address: Calle 19 No.37-16 Barrio Palermo\nTelefóno: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelphone: 3154857412\nNumber of employees: 3\nNumber of rooms: 12\nNumber of beds: 15    
+    <string name = "infoh1e">Address: Calle 19 No.37-16 Barrio Palermo\nTelephone: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelphone: 3154857412\nNumber of employees: 3\nNumber of rooms: 12\nNumber of beds: 15    
 </string>   
     <string name = "title_activity_hotel2e"> Loft Hotel</string>    
-    <string name = "infoh2e"> Address: Calle 18 No. 22-33 Centro\nTelefóno: 7226733\nE-mail: aux.gerencia@lofthotelpasto.com\nCelphone: 3176434582\nNumber of employees: 14\nNumber of rooms: 24\nNumber of beds: 24</string>    
+    <string name = "infoh2e"> Address: Calle 18 No. 22-33 Centro\nTelephone: 7226733\nE-mail: aux.gerencia@lofthotelpasto.com\nCelphone: 3176434582\nNumber of employees: 14\nNumber of rooms: 24\nNumber of beds: 24</string>    
     <string name = "title_activity_hotel3e"> Hotel Venecia Confort</string>    
-    <string name = "infoh3e"> Address: Carrera 8 No. 18-32 Barrio Venice\nTelefóno: 7301135\nE-mail: hotelveneciapasto@gmail.com\nCelular: 3137322981\nNumber of Employees: 5\nNumber of rooms: 57\nNumber beds: 77</string>    
+    <string name = "infoh3e"> Address: Carrera 8 No. 18-32 Barrio Venice\nTelephone: 7301135\nE-mail: hotelveneciapasto@gmail.com\nCelphone: 3137322981\nNumber of employees: 5\nNumber of rooms: 57\nNumber beds: 77</string>
     <string name = "title_activity_barese"> Bar</string>    
     <string name = "title_activity_bar1e"> Cafe Bar Maria Mulata</string> 
-    <string name = "infob1e">        Address: Calle 19 # 30 24\nTelefóno: +5727209419</string>    
+    <string name = "infob1e">        Address: Calle 19 # 30 24\nTelephone: +5727209419</string>    
     <string name = "title_activity_bar2e"> Mestizo Peña Bar</string>    
     <string name = "infob2e"> Address: Calle 18 No. 27-67\nTelephone: +5727227881</string>    
     <string name = "title_activity_bar3e"> Coyote Ugly (Coffe Bar)</string>    
-    <string name = "infob3e"> Address: Calle 18 # 29-81 Playground\nCelular: +573004068004</string>   
+    <string name = "infob3e"> Address: Calle 18 # 29-81 Playground\nCelphone: +573004068004</string>   
     <string name = "title_activity_sitio1e"> Santuario de Las Lajas</string>    
     <string name = "infos1e"> Church built in the Valley of Lajas. Spectacular constructed in several stages in white marble prepared for a drop in dramatic decline of more than 1/2 hour for a plate full steep stairs giving thanks for the miracles that the Virgin made or prayers to her to the bed of the river where the church stands and breaks a cascade of 25 meters. It is one of the pilgrimage sites of Colombians and Ecuadorians to pray for their sick and their speedy recovery.\n\nUbicación:\tIpiales, Nariño</string>    
     <string name = "title_activity_sitio2e"> Laguna de la Cocha</string>    
@@ -90,4 +90,5 @@ Blancos y Mestizos (97,5%)\n
 Afrocolombianos (1,6%)\n
 Indígenas (0,9%)\n
 </string>
+    <string name = "infode"> The urban area (municipal head) whose registered population in 2005 was 312,759 inhabitants, is the second largest in the Pacific Region after Cali city.\nThe total population of the municipality (urban and rural) 2015 data estimated by DANE's projection of 439,993 inhabitants\n \ ethnic nComposición\n\nSegún the figures presented by DANE 2005 census, the ethnographic composition of the city.\n\n Whites and Mestizos (97.5%)\n Afro-Colombians (1.6%)\n Indigenous (0.9%)\n </string>
 </resources>
