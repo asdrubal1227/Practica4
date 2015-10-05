@@ -58,9 +58,6 @@ public class sitio1 extends AppCompatActivity implements View.OnTouchListener {
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
-        Toast.makeText(this, "Hotel La Maison", Toast.LENGTH_SHORT).show();
-        TextView sit1 = (TextView) v.findViewById(R.id.sit1);
-        sit1.setText(R.string.infos2);
         return false;
     }
 }
