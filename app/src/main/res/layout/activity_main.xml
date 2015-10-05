@@ -111,7 +111,7 @@ android:touchscreenBlocksFocus="false">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:id="@+id/tNombre"
+                android:id="@+id/ho"
                 android:text="Hoteles"
                 android:textSize="17dp"
                 android:textColor="@color/black"
@@ -141,7 +141,7 @@ android:touchscreenBlocksFocus="false">
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="54dp"
-                android:id="@+id/textView5"
+                android:id="@+id/ba"
                 android:text="Bares"
                 android:textSize="17dp"
                 android:textColor="@color/black"
@@ -178,7 +178,7 @@ android:touchscreenBlocksFocus="false">
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="54dp"
-                android:id="@+id/textView8"
+                android:id="@+id/tu"
                 android:text="Túrismo"
                 android:textSize="16.5dp"
                 android:textColor="@color/black"
@@ -206,8 +206,8 @@ android:touchscreenBlocksFocus="false">
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="54dp"
-                android:id="@+id/textView11"
-                android:text="Demografia"
+                android:id="@+id/de"
+                android:text="@string/de"
                 android:textSize="17dp"
                 android:textColor="@color/black"
                 android:gravity="center" />

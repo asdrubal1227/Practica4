@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Colombia Turistíca</string>
+    <string name="app_namee">Colombia Tourism</string>
     <string name="title_section1">Section 1</string>
+    <string name="tu">TURISMO</string>
+    <string name="tue">TOURISM</string>
+    <string name="ba">BARES</string>
+    <string name="bae">BARS</string>
+    <string name="ho">HOTELES</string>
+    <string name="hoe">HOTELS</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="spanish">Español</string>
@@ -10,7 +17,7 @@
     <string name="action_settings">Settings</string>
     <string name="publicidad">Al sur occidente colombiano se encuentra Pasto, conocida como la ciudad sorpresa de Colombia. Esta linda tierra invita y espera a propios y ajenos a recibir cada año a los reconocidos Carnavales de Negros y Blancos. \n También se le dice ciudad “Sorpresa”, apelativo que nace porque las personas que visitan por primera vez el sur de Colombia, quedan atónitas por el cariño de su gente, la infraestructura de la ciudad, los templos que sobresalen en cada esquina, catalogados como verdaderas joyas arquitectónicas de talla mundial, la gastronomía de la región, la rumba y las múltiples costumbres que acogen al turista y lo identifican como un pastuso más.
 </string>
-    <string name="title_activity_hotel">HotelActivity</string>
+    <string name="title_activity_hotel">Hotel</string>
     <string name="title_activity_hotel1">Hotel Frances La Maison</string>
     <string name="infoh1">
         Dirección: Calle 19 No.37-16 Barrio Palermo\nTelefóno: 7310043\nE-mail: lamaisondelejecutivo@yahoo.com\nCelular: 3154857412\nNúmero de empleados: 3\nNúmero de habitaciones: 12\nNúmero de camas: 15
@@ -21,7 +28,7 @@
     <string name="title_activity_hotel3">Hotel Venecia Confort</string>
     <string name="infoh3">Dirección: Carrera 8 Nº 18-32 Barrio Venecia\nTelefóno: 7301135\nE-mail: hotelveneciapasto@gmail.com\nCelular: 3137322981\nNúmero de empleados: 5\nNúmero de habitaciones: 57\nNúmero de camas: 77
 </string>
-    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_bares">Bar</string>
     <string name="title_activity_bar1">Cafe Bar Maria Mulata</string>
     <string name="infob1">
         Dirección: Calle 19 # 30 24\nTelefóno: +5727209419
@@ -83,7 +90,8 @@
     <string name = "infos5e"> It was built following the traditional architectural parameters, has four wide naves and a facade of elegant structure, who first visited the impression of being under the vaults of a great Roman basilica it takes .\nIn the interior of the Cathedral, on a carved cedar altarpiece completely gold, lies the image of the Sacred Heart of Jesus, worshiped by the inhabitants of Pasto.\nYou, there are two sarcophagi carved in stone where the remains mortals of the bishops of the city. For its architectural beauty, their historical value, their artwork and be a place of interior recollection, the temple of the cathedral is a place worth visiting.\n\nUbicación:\tCarrera 26 No. 17-23 Centro, Pasto</string>
  <string name = "title_activity_sitiose">Sites</string>
     <string name="title_activity_demo">Demografia</string>
-    <string name="title_activity_demoe">Demographic</string>
+    <string name="de">Demografia</string>
+    <string name="dee">Demographic</string>
     <string name="infod">La zona urbana (cabecera municipal) cuya población censada en 2005 era de 312.759 habitantes, es la segunda ciudad más grande de la Región Pacífica después de Cali.\nLa población total del municipio (Urbana y rural) estimada para 2015 según datos de proyección del DANE es de 439.993 habitantes.
         \n\nComposición étnica
         \n\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica de la ciudad es (en porcentage):

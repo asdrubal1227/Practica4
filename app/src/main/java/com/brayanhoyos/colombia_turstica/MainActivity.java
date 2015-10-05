@@ -64,6 +64,16 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             Toast.makeText(this, "Idioma Español", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.publi);
             sit1.setText(R.string.publicidad);
+            TextView sit2 = (TextView) findViewById(R.id.textView);
+            sit2.setText(R.string.app_name);
+            TextView sit3 = (TextView) findViewById(R.id.ho);
+            sit3.setText(R.string.ho);
+            TextView sit4 = (TextView) findViewById(R.id.ba);
+            sit4.setText(R.string.ba);
+            TextView sit5 = (TextView) findViewById(R.id.tu);
+            sit5.setText(R.string.tu);
+            TextView sit6 = (TextView) findViewById(R.id.de);
+            sit6.setText(R.string.de);
             return true;
         }
 
@@ -71,6 +81,16 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             Toast.makeText(this, "Idiom English", Toast.LENGTH_SHORT).show();
             TextView sit1 = (TextView) findViewById(R.id.publi);
             sit1.setText(R.string.publicidade);
+            TextView sit2 = (TextView) findViewById(R.id.textView);
+            sit2.setText(R.string.app_namee);
+            TextView sit3 = (TextView) findViewById(R.id.ho);
+            sit3.setText(R.string.hoe);
+            TextView sit4 = (TextView) findViewById(R.id.ba);
+            sit4.setText(R.string.bae);
+            TextView sit5 = (TextView) findViewById(R.id.tu);
+            sit5.setText(R.string.tue);
+            TextView sit6 = (TextView) findViewById(R.id.de);
+            sit6.setText(R.string.dee);
             return true;
         }
 
