@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,7 +15,8 @@ public class Bares extends AppCompatActivity implements View.OnTouchListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_bares);
         View bar1=findViewById(R.id.bar1);
         View bar2=findViewById(R.id.bar2);

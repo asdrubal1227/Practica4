@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,6 +16,8 @@ public class sitios extends AppCompatActivity implements View.OnTouchListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_sitios);
         View sitio1=findViewById(R.id.sitio1);
         View sitio2=findViewById(R.id.sitio2);

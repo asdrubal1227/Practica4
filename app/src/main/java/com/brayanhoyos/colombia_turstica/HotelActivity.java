@@ -1,14 +1,13 @@
 package com.brayanhoyos.colombia_turstica;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.CheckBox;
-import android.widget.ImageView;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,6 +16,8 @@ public class HotelActivity extends AppCompatActivity implements View.OnTouchList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_hotel);
         View hotel1=findViewById(R.id.hotel1);
         View hotel2=findViewById(R.id.hotel2);

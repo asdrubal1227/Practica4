@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,6 +13,8 @@ public class demo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_demo);
     }
 
