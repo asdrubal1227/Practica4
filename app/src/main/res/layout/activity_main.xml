@@ -24,7 +24,7 @@ android:focusableInTouchMode="false"
 android:transitionGroup="false"
 android:touchscreenBlocksFocus="false">
 
-<TableLayout
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -33,29 +33,31 @@ android:touchscreenBlocksFocus="false">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="match_parent"
         android:text="@string/title"
         android:gravity="center"
-        android:textSize="30dp"
+        android:textSize="36dp"
         android:textColor="@color/darkorange"
         android:id="@+id/textView"
         android:background="@drawable/transpa4"
         android:textStyle="normal|bold"
         android:layout_row="0"
         android:layout_column="0"
-        android:foregroundGravity="center" />
+        android:foregroundGravity="center"
+        android:typeface="serif" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_height="match_parent"
         android:text="PASTO, Nariño"
         android:background="@drawable/transpa4"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:textAlignment="center"
         android:gravity="center"
         android:textColor="@color/darkorange"
         android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:typeface="serif"  />
 
     <TextView
         android:layout_width="wrap_content"
@@ -65,146 +67,152 @@ android:touchscreenBlocksFocus="false">
         android:id="@+id/publi"
         android:textColor="@color/black"
         android:background="@drawable/transpa32"
-        android:textSize="10dp"
+        android:textSize="15dp"
         android:layout_below="@+id/section_label"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="40dp"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:orientation="vertical"
         android:id="@+id/ta"
         android:gravity="center">
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/hotelinfop"
-            android:src="@drawable/hotelinfo"
-            android:background="@drawable/transpa32"
-            android:layout_weight="0.5"
-            android:layout_column="19"
-            android:layout_span="2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="5dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
             android:layout_toRightOf="@+id/textView4"
-            android:layout_column="10"
-            android:layout_span="1">
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/hotelinfop"
+                android:src="@drawable/hotelinfo"
+                android:background="@drawable/transpa32"
+                android:layout_weight="0.5"
+                android:layout_span="2" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/ho"
                 android:text="@string/he"
+                android:textStyle="normal|bold"
                 android:textSize="17dp"
                 android:textColor="@color/black"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_weight="0.5" />
 
 
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/bares"
-            android:background="@drawable/transpa32"
-            android:src="@drawable/bar"
-            android:layout_weight="0.5" />
-
         <LinearLayout
-            android:layout_width="5dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
             android:layout_toRightOf="@+id/textView4"
-            android:layout_column="10"
-            android:layout_span="1" >
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bares"
+                android:background="@drawable/transpa32"
+                android:src="@drawable/bar"
+                android:layout_weight="0.5" />
 
             <TextView
-                android:layout_width="62dp"
-                android:layout_height="54dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/ba"
                 android:text="@string/be"
                 android:textSize="17dp"
+                android:textStyle="normal|bold"
                 android:textColor="@color/black"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_weight="0.5" />
+        </LinearLayout>
         </LinearLayout>
 
-
-    </LinearLayout>
-
-    <TableRow
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:gravity="center">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/turismo"
-            android:background="@drawable/transpa32"
-            android:src="@drawable/turismo"
-            android:layout_weight="0.5" />
-
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
         <LinearLayout
-            android:layout_width="5dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
             android:layout_weight="1"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/textView4"
-            android:layout_column="10"
             android:layout_span="1" >
 
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/turismo"
+                android:background="@drawable/transpa32"
+                android:src="@drawable/turismo"
+                android:layout_weight="0.5" />
+
             <TextView
-                android:layout_width="62dp"
-                android:layout_height="54dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/tu"
                 android:text="@string/te"
                 android:textSize="16.5dp"
+                android:textStyle="normal|bold"
                 android:textColor="@color/black"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_weight="0.5" />
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/sitios"
-            android:background="@drawable/transpa32"
-            android:src="@drawable/mapa"
-            android:layout_weight="0.5" />
-
         <LinearLayout
-            android:layout_width="5dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
             android:layout_weight="1"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/textView4"
             android:layout_column="10"
             android:layout_span="1" >
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sitios"
+                android:background="@drawable/transpa32"
+                android:src="@drawable/mapa"
+                android:layout_weight="0.5" />
+
             <TextView
-                android:layout_width="62dp"
-                android:layout_height="54dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/de"
                 android:text="@string/de"
                 android:textSize="17dp"
+                android:textStyle="normal|bold"
                 android:textColor="@color/black"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_weight="0.5" />
         </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
 
-    </TableRow>
-
-</TableLayout>
+</LinearLayout>
 </ScrollView>
 
 </RelativeLayout>

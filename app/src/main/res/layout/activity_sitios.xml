@@ -16,13 +16,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:transitionGroup="false"
-        android:touchscreenBlocksFocus="false">
+        android:layout_alignParentEnd="true">
 
-        <TableLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -30,24 +26,25 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:text="@string/titlem"
-                android:textSize="25dp"
+                android:textSize="32dp"
                 android:gravity="center"
                 android:textColor="@color/darkorange"
                 android:id="@+id/titu"
                 android:background="@drawable/transpa4"
                 android:textStyle="normal|bold"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:foregroundGravity="center" />
+                android:foregroundGravity="center"
+                android:typeface="serif" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/tu"
+                android:typeface="serif"
                 android:background="@drawable/transpa4"
-                android:textSize="30dp"
+                android:textSize="40dp"
+                android:layout_margin="20dp"
                 android:textAlignment="center"
                 android:gravity="center_horizontal"
                 android:textColor="@color/darkorange"
@@ -55,185 +52,132 @@
                 android:layout_gravity="center_horizontal" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
                 android:id="@+id/ta">
 
                 <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:id="@+id/sitio1"
                     android:src="@drawable/sitio1"
                     android:layout_weight="0.5"
-                    android:layout_span="2" />
-
-                <LinearLayout
-                    android:layout_width="148dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_alignParentBottom="true">
+                    android:adjustViewBounds="true" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="81dp"
+                        android:layout_height="match_parent"
                         android:id="@+id/tNombre"
                         android:text="@string/title_activity_sitio1"
                         android:textSize="20dp"
+                        android:layout_weight="0.5"
                         android:textColor="@color/black"
                         android:gravity="center" />
-
-
-                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
                 android:id="@+id/ta2">
 
                 <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:id="@+id/sitio2"
                     android:src="@drawable/sitio2"
+                    android:adjustViewBounds="true"
                     android:layout_weight="0.5" />
-
-                <LinearLayout
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    android:layout_alignParentBottom="true"
-                    android:layout_toRightOf="@+id/textView4"
-                    android:layout_column="10"
-                    android:layout_span="1" >
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="81dp"
+                        android:layout_height="match_parent"
                         android:id="@+id/textView5"
                         android:text="@string/title_activity_sitio2"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:gravity="center" />
-
-                </LinearLayout>
-
+                        android:gravity="center"
+                        android:layout_weight="0.5"  />
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
                 android:id="@+id/ta3">
 
                 <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:id="@+id/sitio3"
                     android:src="@drawable/sitio3"
                     android:layout_weight="0.5"
-                    android:layout_column="19"
-                    android:layout_span="2" />
-
-                <LinearLayout
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    android:layout_alignParentBottom="true"
-                    android:layout_toRightOf="@+id/textView4"
-                    android:layout_column="10"
-                    android:layout_span="1" >
+                    android:adjustViewBounds="true" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="81dp"
+                        android:layout_height="match_parent"
                         android:id="@+id/textView9"
                         android:text="@string/title_activity_sitio3"
                         android:textSize="20dp"
                         android:textColor="@color/black"
+                        android:layout_weight="0.5"
                         android:gravity="center" />
-
-                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/linearLayout"
-                android:layout_alignBottom="@+id/scrollView"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
+                android:layout_marginBottom="10dp">
 
                 <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:id="@+id/sitio4"
                     android:src="@drawable/sitio4"
-                    android:layout_weight="0.5"
-                    android:layout_column="19"
-                    android:layout_span="2" />
-
-                <LinearLayout
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    android:layout_alignParentBottom="true"
-                    android:layout_toRightOf="@+id/textView4"
-                    android:layout_column="10"
-                    android:layout_span="1" >
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.5" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="81dp"
+                        android:layout_height="match_parent"
                         android:id="@+id/textView4"
                         android:text="@string/title_activity_sitio4"
                         android:textSize="20dp"
                         android:textColor="@color/black"
+                        android:layout_weight="0.5"
                         android:gravity="center" />
-                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/linearLayout2"
-                android:layout_alignBottom="@+id/scrollView"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" >
+                android:layout_marginBottom="10dp" >
 
                 <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:id="@+id/sitio5"
                     android:src="@drawable/sitio5"
                     android:layout_weight="0.5"
-                    android:layout_column="19"
-                    android:layout_span="2" />
-
-                <LinearLayout
-                    android:layout_width="5dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    android:layout_alignParentBottom="true"
-                    android:layout_toRightOf="@+id/textView6"
-                    android:layout_column="10"
-                    android:layout_span="1" >
+                    android:adjustViewBounds="true" />
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="81dp"
+                        android:layout_height="match_parent"
                         android:id="@+id/textView6"
                         android:text="@string/title_activity_sitio5"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:gravity="center" />
-                </LinearLayout>
+                        android:gravity="center"
+                        android:layout_weight="0.5" />
             </LinearLayout>
 
-        </TableLayout>
+        </LinearLayout>
     </ScrollView>
 
 
